@@ -2,7 +2,6 @@
 import { FC } from "react";
 import Image from "next/image";
 import Pic from "@/assets/pro.png";
-import AppSidebar from "./AppNavbar";
 const topics = [
   "Full-stack Development",
   "Cloud Computing",
@@ -23,14 +22,14 @@ const AppAbout: FC = () => {
         height={500}
         quality={100}
       />
-      <div className="flex flex-col justify-center p-4 xs:text-center md:text-left">
+      <div className="flex flex-col justify-center p-4 xs:text-center md:text-left flex-wrap">
         <div className="flex flex-col flex-wrap justify-center md:items-start xs:items-center">
-          <p className="text-2xl">Hello world 🌍🌟, I am</p>
+          <p className="text-2xl font-bold">🌍🌟 Hello world, I am</p>
           <h1 className="text-5xl font-bold mt-2">Chonakan Chumtap</h1>
 
           <div
             id="role"
-            className="flex flex-row flex-wrap mb-4 mt-5 xs:justify-center xs:items-center md:items-start md:justify-start"
+            className="flex flex-row flex-wrap mb-10 mt-5 xs:justify-center xs:items-center md:items-start md:justify-start"
           >
             <span className="text-header mt-1 md:mr-2 text-3xl font-semibold">
               I fancy{" "}
@@ -43,11 +42,9 @@ const AppAbout: FC = () => {
               ))}
             </ul>
           </div>
-          <p>
-            This is me "The person who loves coding and developing new stuffs!"
-          </p>
+          <p>Thank you very much for visiting my Portfolio 👨🏽‍💻</p>
           <button className="mt-10 bg-black px-3 py-3 rounded-xl text-white transition-all duration-300 hover:bg-primary">
-            View my Resume
+            View more about me
           </button>
         </div>
       </div>

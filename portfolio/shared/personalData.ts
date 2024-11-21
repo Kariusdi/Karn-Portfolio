@@ -109,3 +109,14 @@ export const OtherSkillsStack = [
       "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/44_Bitbucket_logo_logos-512.png",
   },
 ];
+
+export const aboutMeQuote = `
+    I enjoy learning new things about computer all the time. I love to
+        create operations like "data engineering" and "cloud computing". As well
+        as that I enjoy developing applications whether web or mobile. Lately, I
+        interested in Machine Learning and LLMs operations, so now I'm doing
+              data engineering for LLMs in my Thesis project!
+`;
+
+export const aboutMeBold =
+  "The person who loves coding and developing new stuffs !";

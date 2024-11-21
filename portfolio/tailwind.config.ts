@@ -8,6 +8,15 @@ export default {
   ],
   theme: {
     extend: {
+      animation: {
+        tilt: "tilt 2s ease-in-out infinite",
+      },
+      keyframes: {
+        tilt: {
+          "0%, 100%": { transform: "rotate(0deg)" },
+          "50%": { transform: "rotate(3deg)" },
+        },
+      },
       colors: {
         primary: "#636FA4",
         secondary: "#E8CBC0",
