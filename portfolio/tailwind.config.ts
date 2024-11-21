@@ -9,8 +9,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#636FA4",
+        secondary: "#E8CBC0",
+        tertiary: "#FFFFFF",
+      },
+      screens: {
+        xs: "340px", // min-width
+        llg: "1000px",
       },
     },
   },
