@@ -17,6 +17,7 @@ const AppQuote: FC<AppQuoteProps> = ({ bold, desc }) => {
           width={35}
           height={35}
           quality={100}
+          placeholder="blur"
         />
       </div>
       <span className="font-bold text-lg">{bold}</span>

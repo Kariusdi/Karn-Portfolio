@@ -35,6 +35,7 @@ const AppContact = () => {
               width={20}
               height={20}
               quality={100}
+              placeholder="blur"
             />
             <Link
               href={

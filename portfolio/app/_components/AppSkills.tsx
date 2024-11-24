@@ -1,5 +1,5 @@
 "use client";
-import { FC, useEffect, useState } from "react";
+import { FC, useState } from "react";
 import SkillsList from "./SkillsList";
 import {
   TechStackSkills,
@@ -8,7 +8,6 @@ import {
 } from "@/shared/personalData";
 import Image from "next/image";
 import Code from "@/assets/code.jpeg";
-import Profile from "@/assets/profile.png";
 
 const skillTopics = [
   { name: "Dev Tools", id: "#tech-stack" },
@@ -62,6 +61,7 @@ const AppSkills: FC = () => {
           height={450}
           quality={100}
           className="rounded-3xl"
+          placeholder="blur"
         />
       </div>
     </section>

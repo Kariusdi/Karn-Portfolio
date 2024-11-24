@@ -1,23 +1,12 @@
 "use client";
-import { FC, useLayoutEffect } from "react";
-import Tesa2024 from "@/assets/Tesa 2024/2.jpg";
-import Tesa2023 from "@/assets/Tesa 2023/1.jpg";
-import Ai from "@/assets/AI Hackathon/1.1.jpg";
+import { FC } from "react";
+import Tesa2024 from "@/assets/Tesa_2024/2.jpg";
+import Tesa2023 from "@/assets/Tesa_2023/1.jpg";
+import Ai from "@/assets/AI_Hackathon/1.1.jpg";
 import Rubber from "@/assets/YongYang/1.1.jpg";
 import Image, { StaticImageData } from "next/image";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const AppAccomplishments: FC = () => {
-  // useLayoutEffect(() => {
-  //     let ctx = gsap.context(() => {
-  //         ScrollTrigger.create({
-  //             trigger:
-  //         })
-  //     })
-
-  //     return () => ctx.revert()
-  // }, [])
   return (
     <section
       id="accomplishments"
@@ -105,6 +94,7 @@ const Accomplishments: FC<AccomplishmentsProps> = ({
             height={200}
             quality={100}
             className="rounded-xl shadow-lg"
+            placeholder="blur"
           />
           <div className="lg:w-[50%] md:w-full flex flex-col items-start space-y-5">
             <div className="inline-flex items-center border p-2 rounded-md space-x-2">
@@ -137,6 +127,7 @@ const Accomplishments: FC<AccomplishmentsProps> = ({
             width={400}
             height={200}
             className="rounded-xl shadow-lg"
+            placeholder="blur"
           />
         </div>
       ) : (

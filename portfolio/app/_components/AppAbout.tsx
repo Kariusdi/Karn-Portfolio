@@ -22,6 +22,7 @@ const AppAbout: FC = () => {
         width={500}
         height={500}
         quality={100}
+        placeholder="blur"
       />
       <div className="flex flex-col justify-center p-4 xs:text-center md:text-left flex-wrap">
         <div className="flex flex-col flex-wrap justify-center md:items-start xs:items-center">

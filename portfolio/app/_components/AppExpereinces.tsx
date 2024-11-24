@@ -6,7 +6,6 @@ import Fulfill3 from "@/assets/Fulfills/3.png";
 import Japan1 from "@/assets/Japan/1.8.jpg";
 import Japan2 from "@/assets/Japan/1.2.jpg";
 import Japan3 from "@/assets/Japan/1.6.jpg";
-import Japan4 from "@/assets/Japan/1.8.jpg";
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 
@@ -78,6 +77,9 @@ const Experiences: FC<ExperiencesProps> = ({ ...ExperiencesProps }) => {
               alt="intern"
               className="w-full h-full object-cover rounded-xl"
               quality={100}
+              width={0}
+              height={0}
+              placeholder="blur"
             />
           </div>
         ))}
