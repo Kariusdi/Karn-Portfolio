@@ -15,7 +15,7 @@ const AppExpereinces: FC = () => {
       id="experiences"
       className="flex flex-col flex-wrap justify-center items-center space-x-0 min-h-screen xs:pt-24 w-full"
     >
-      <h1 className="mb-10 xs:text-2xl md:text-5xl font-bold mt-2 text-center">
+      <h1 className="mb-10 xs:text-4xl md:text-5xl font-bold mt-2 text-center">
         My Relevant Experiences
       </h1>
       <div className="flex justify-center items-start">
