@@ -1,5 +1,5 @@
 "use client";
-import { FC, useState } from "react";
+import { FC, useEffect, useState } from "react";
 import SkillsList from "./SkillsList";
 import {
   TechStackSkills,
@@ -8,15 +8,17 @@ import {
 } from "@/shared/personalData";
 import Image from "next/image";
 import Code from "@/assets/code.jpeg";
+import Profile from "@/assets/profile.png";
 
 const skillTopics = [
   { name: "Dev Tools", id: "#tech-stack" },
-  { name: "Personality", id: "#soft-skills" },
+  { name: "Soft Skills", id: "#soft-skills" },
   { name: "Others", id: "#others" },
 ];
 
 const AppSkills: FC = () => {
   const [selectedTopic, setSelectedTopic] = useState<string>("Dev Tools");
+
   return (
     <section
       id="skills"
@@ -31,7 +33,7 @@ const AppSkills: FC = () => {
             <div key={idx} className="">
               <li
                 onClick={() => setSelectedTopic(skill.name)}
-                className={`transition-all duration-200 cursor-pointer px-4 py-3 w-40 text-center ${
+                className={`transition-all duration-500 cursor-pointer px-4 py-3 w-40 text-center ${
                   selectedTopic === skill.name
                     ? "bg-white text-black rounded-full font-bold"
                     : "text-white"
@@ -42,11 +44,10 @@ const AppSkills: FC = () => {
             </div>
           ))}
         </ul>
-
         <div className="shadow-lg p-5 rounded-2xl overflow-auto w-full mt-2">
           {selectedTopic === "Dev Tools" ? (
             <SkillsList data={TechStackSkills} />
-          ) : selectedTopic === "Personality" ? (
+          ) : selectedTopic === "Soft Skills" ? (
             <SkillsList data={SoftSkillsStack} />
           ) : (
             <SkillsList data={OtherSkillsStack} />

@@ -119,4 +119,4 @@ export const aboutMeQuote = `
 `;
 
 export const aboutMeBold =
-  "The person who loves coding and developing new stuffs !";
+  "The person who loves coding and developing new stuffs ! 👨🏽‍💻";

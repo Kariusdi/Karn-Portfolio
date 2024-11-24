@@ -2,6 +2,7 @@
 import { FC } from "react";
 import Image from "next/image";
 import Pic from "@/assets/pro.png";
+import Link from "next/link";
 const topics = [
   "Full-stack Development",
   "Cloud Computing",
@@ -42,9 +43,9 @@ const AppAbout: FC = () => {
               ))}
             </ul>
           </div>
-          <p>Thank you very much for visiting my Portfolio 👨🏽‍💻</p>
+          <p>Thank you very much for visiting my Portfolio</p>
           <button className="mt-10 bg-black px-3 py-3 rounded-xl text-white transition-all duration-300 hover:bg-primary">
-            View more about me
+            View my resume
           </button>
         </div>
       </div>

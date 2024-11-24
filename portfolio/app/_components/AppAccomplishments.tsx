@@ -1,20 +1,16 @@
-import React from "react";
+import { FC } from "react";
 
-const AppExpereinces = () => {
+const AppAccomplishments: FC = () => {
   return (
     <section
-      id="experiences"
+      id="accomplishments"
       className="flex flex-col flex-wrap justify-center items-center space-x-3 min-h-screen xs:pt-24"
     >
       <h1 className="mb-10 xs:text-2xl md:text-5xl font-bold mt-2 text-center">
-        My Relevant Experiences
+        Accomplishments
       </h1>
     </section>
   );
 };
 
-export default AppExpereinces;
-
-const Experiences = () => {
-  return <div></div>;
-};
+export default AppAccomplishments;

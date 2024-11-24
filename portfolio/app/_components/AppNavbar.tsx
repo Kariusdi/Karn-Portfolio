@@ -9,8 +9,8 @@ import Image from "next/image";
 const menus = [
   { icon: "", label: "About Me", route: "about" },
   { icon: "", label: "Skills", route: "skills" },
-  { icon: "", label: "Experiences", route: "experiences" },
   { icon: "", label: "Accomplishments", route: "accomplishments" },
+  { icon: "", label: "Experiences", route: "experiences" },
   { icon: "", label: "Contact Me", route: "contact" },
 ];
 
