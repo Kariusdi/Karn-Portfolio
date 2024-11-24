@@ -11,7 +11,10 @@ export default function Home() {
   return (
     <section className="flex flex-col justify-center items-center space-y-20">
       <AppAbout />
-      <AppQuote desc={aboutMeQuote} bold={aboutMeBold} />
+      <div className="w-full flex flex-wrap justify-center items-center md:space-x-20 xs:space-y-20 p-10">
+        <h1 className="xs:text-4xl md:text-5xl font-bold">About Me</h1>
+        <AppQuote desc={aboutMeQuote} bold={aboutMeBold} />
+      </div>
       <AppSkills />
       <AppAccomplishments />
       <AppExpereinces />

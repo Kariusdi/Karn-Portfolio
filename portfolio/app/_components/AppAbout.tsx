@@ -45,7 +45,7 @@ const AppAbout: FC = () => {
           </div>
           <p>Thank you very much for visiting my Portfolio</p>
           <button className="mt-10 bg-black px-3 py-3 rounded-xl text-white transition-all duration-300 hover:bg-primary">
-            View my resume
+            Contact Me
           </button>
         </div>
       </div>

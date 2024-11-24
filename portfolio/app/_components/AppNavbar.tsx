@@ -20,7 +20,7 @@ function NavBarSection() {
 
   return (
     <>
-      <nav className="fixed top-3 left-1/2 transform -translate-x-1/2 rounded-full w-[80%] h-16 bg-white shadow-xl xs:hidden md:flex justify-between items-center font-bold p-5 z-10">
+      <nav className="fixed top-3 left-1/2 transform -translate-x-1/2 rounded-full w-[80%] h-16 bg-white shadow-xl xs:hidden lg:flex justify-between items-center font-bold p-5 z-10">
         <h1 className="text-xl">Karn's Portfolio</h1>
         <ul className="flex space-x-5">
           {menus.map((ele, idx) => (
@@ -42,7 +42,7 @@ function NavBarSection() {
           ))}
         </ul>
       </nav>
-      <nav className="fixed top-3 left-1/2 transform -translate-x-1/2 rounded-full w-[90%] h-16 bg-white shadow-xl md:hidden flex justify-between items-center font-bold p-5 z-10">
+      <nav className="fixed top-3 left-1/2 transform -translate-x-1/2 rounded-full w-[90%] h-16 bg-white shadow-xl lg:hidden flex justify-between items-center font-bold p-5 z-10">
         <h1 className="text-xl">Karn's Portfolio</h1>
         <div className="cursor-pointer">
           <Image

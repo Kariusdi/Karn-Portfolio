@@ -25,7 +25,7 @@ const AppSkills: FC = () => {
       className="min-h-screen flex flex-wrap justify-center items-center w-full xs:pt-24"
     >
       <div className="flex flex-col justify-center items-center xs:w-full md:w-1/2 xs:p-5">
-        <h1 className="mb-10 xs:text-2xl md:text-5xl font-bold mt-2 text-center">
+        <h1 className="mb-10 xs:text-4xl md:text-5xl font-bold mt-2 text-center">
           What I could do
         </h1>
         <ul className="flex flex-wrap justify-center items-center bg-black xs:rounded-3xl md:rounded-full p-2">
