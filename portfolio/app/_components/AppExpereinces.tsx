@@ -84,7 +84,7 @@ const Experiences: FC<ExperiencesProps> = ({ ...ExperiencesProps }) => {
           </div>
         ))}
       </div>
-      <div className="text-center w-3/5 mt-10 ">
+      <div className="text-center p-2 mt-10 ">
         <p className="">{ExperiencesProps.duration}</p>
         <h1 className="text-3xl font-bold drop-shadow-lg mt-2">
           {ExperiencesProps.header}
