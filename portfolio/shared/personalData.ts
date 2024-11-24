@@ -113,7 +113,7 @@ export const OtherSkillsStack = [
 export const aboutMeQuote = `
     I enjoy learning new things about computer all the time. I love to
         create operations like "data engineering" and "cloud computing". As well
-        as that I enjoy developing applications whether web or mobile. Lately, I
+        as that I enjoy developing applications whether web or mobile especially I love front end! Lately, I
         interested in Machine Learning and LLMs operations, so now I'm doing
               data engineering for LLMs in my Thesis project!
 `;
