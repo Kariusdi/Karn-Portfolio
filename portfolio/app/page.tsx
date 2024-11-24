@@ -18,6 +18,7 @@ export default function Home() {
       <AppSkills />
       <AppAccomplishments />
       <AppExpereinces />
+      <div className="mt-20"></div>
       <AppContact />
     </section>
   );

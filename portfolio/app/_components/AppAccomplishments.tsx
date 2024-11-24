@@ -26,7 +26,7 @@ const AppAccomplishments: FC = () => {
       <h1 className="mb-10 xs:text-4xl md:text-5xl font-bold mt-2 text-center">
         Accomplishments
       </h1>
-      <div className="flex flex-col justify-center items-center p-10 space-y-10">
+      <div className="w-full flex flex-col justify-center items-center p-10 space-y-10">
         <Accomplishments
           style="left"
           img={Tesa2024}
@@ -38,7 +38,7 @@ const AppAccomplishments: FC = () => {
               WebSocket and RESTful APIs, leveraging Mosquitto, MongoDB,
               FastAPI, Next.js, and Docker. "`}
         />
-        <hr className="w-full border-t-[0.5px] border-secondary" />
+        <hr className="w-full border-t-[0.5px] border-primary" />
         <Accomplishments
           style="right"
           img={Ai}
@@ -48,7 +48,7 @@ const AppAccomplishments: FC = () => {
           subheader="arranged by KMITL and The University of Queensland"
           desc={`" I was responsible for Frontend Development of an LLMs Application focused on household waste management assistance based on user behaviour, and served as a pitch presenter. "`}
         />
-        <hr className="w-full border-t-[0.5px] border-secondary" />
+        <hr className="w-full border-t-[0.5px] border-primary" />
         <Accomplishments
           style="left"
           img={Tesa2023}
@@ -58,7 +58,7 @@ const AppAccomplishments: FC = () => {
           subheader="Monitoring and Management System of Flood and Drought Conditions"
           desc={`" I worked on server programming section by implementing MQTT and RESTful APIs, leveraging EMQX, MongoDB, FastAPI, Streamlit, and Docker. "`}
         />
-        <hr className="w-full border-t-[0.5px] border-secondary" />
+        <hr className="w-full border-t-[0.5px] border-primary" />
         <Accomplishments
           style="right"
           img={Rubber}
@@ -103,6 +103,7 @@ const Accomplishments: FC<AccomplishmentsProps> = ({
             alt="TESA2024"
             width={400}
             height={200}
+            quality={100}
             className="rounded-xl shadow-lg"
           />
           <div className="lg:w-[50%] md:w-full flex flex-col items-start space-y-5">
