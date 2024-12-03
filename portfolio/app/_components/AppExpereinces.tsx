@@ -70,7 +70,7 @@ const Experiences: FC<ExperiencesProps> = ({ ...ExperiencesProps }) => {
         {ExperiencesProps.img.map((ele, idx) => (
           <div
             key={idx}
-            className="w-[400px] h-[250px] rounded-xl shadow-lg transition-all duration-300 translate-y-0 hover:-translate-y-2 hover:shadow-2xl"
+            className="w-[380px] h-[250px] rounded-xl shadow-lg transition-all duration-300 translate-y-0 hover:-translate-y-2 hover:shadow-2xl"
           >
             <Image
               src={ele}

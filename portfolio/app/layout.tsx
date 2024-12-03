@@ -6,8 +6,8 @@ import AppNavBar from "./_components/AppNavbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Chonakan's Portfolio",
-  description: "This website is just a personal used for Chonakan's Portfolio.",
+  title: "Karn's Portfolio",
+  description: "This website is just a personal used for Karn's Portfolio.",
 };
 
 export default function RootLayout({

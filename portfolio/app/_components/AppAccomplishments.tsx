@@ -15,7 +15,7 @@ const AppAccomplishments: FC = () => {
       <h1 className="mb-10 xs:text-4xl md:text-5xl font-bold mt-2 text-center">
         Accomplishments
       </h1>
-      <div className="w-full flex flex-col justify-center items-center p-10 space-y-10">
+      <div className="w-full flex flex-col justify-center items-center p-0 space-y-10">
         <Accomplishments
           style="left"
           img={Tesa2024}
