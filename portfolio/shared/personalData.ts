@@ -53,12 +53,6 @@ export const TechStackSkills = [
       "https://static-00.iconduck.com/assets.00/tailwind-css-icon-2048x1229-u8dzt4uh.png",
   },
   {
-    name: "Flutter",
-    level: "intermediate",
-    iconUrl:
-      "https://static-00.iconduck.com/assets.00/flutter-icon-1651x2048-ojswpayr.png",
-  },
-  {
     name: "PostgreSQL",
     level: "intermediate",
     iconUrl:
@@ -68,7 +62,7 @@ export const TechStackSkills = [
     name: "Docker",
     level: "intermediate",
     iconUrl:
-      "https://i0.wp.com/css-tricks.com/wp-content/uploads/2020/09/docker-logo.png?fit=1200%2C600&ssl=1",
+      "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-512.png",
   },
   {
     name: "Arduino",
@@ -86,6 +80,36 @@ export const TechStackSkills = [
     name: "Git",
     level: "intermediate",
     iconUrl: "https://avatars.githubusercontent.com/u/18133?s=280&v=4",
+  },
+  {
+    name: "Airflow",
+    level: "intermediate",
+    iconUrl:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFzCIuPsPokbP-V0RFFgCRJqcve5gpjJmTtg&s",
+  },
+  {
+    name: "Auth0",
+    level: "intermediate",
+    iconUrl:
+      "https://static-00.iconduck.com/assets.00/auth0-icon-1832x2048-ewzjrdwk.png",
+  },
+  {
+    name: "FastAPI",
+    level: "intermediate",
+    iconUrl:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_kiua2U8D57hLpiAYrdIfVD6R1e5-kxL3tA&s",
+  },
+  {
+    name: "Streamlit",
+    level: "intermediate",
+    iconUrl:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIT4aBUJReuLBjM-LqxL2eXtQ1BZFNhoTmNw&s",
+  },
+  {
+    name: "MinIO",
+    level: "intermediate",
+    iconUrl:
+      "https://artifacthub.io/image/aec2a822-2a3f-41a6-8a71-57c5d75d011e@3x",
   },
 ];
 
