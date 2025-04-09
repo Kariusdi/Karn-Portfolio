@@ -8,8 +8,8 @@ import Image from "next/image";
 
 const menus = [
   { icon: "", label: "About Me", route: "about" },
-  { icon: "", label: "Skills", route: "skills" },
   { icon: "", label: "Projects", route: "projects" },
+  { icon: "", label: "Skills", route: "skills" },
   { icon: "", label: "Accomplishments", route: "accomplishments" },
   { icon: "", label: "Experiences", route: "experiences" },
   { icon: "", label: "Contact Me", route: "contact" },
@@ -23,9 +23,11 @@ function NavBarSection() {
     <>
       <nav className="fixed top-3 left-1/2 transform -translate-x-1/2 rounded-full w-[80%] h-16 bg-white shadow-xl xs:hidden lg:flex justify-between items-center font-bold p-5 z-30">
         <h1 className="text-xl">Karn&apos;s Portfolio</h1>
-        <ul className="flex space-x-5">
+        <div className="flex space-x-5">
           {menus.map((ele, idx) => (
-            <li
+            <Link
+              href={`#${ele.route}`}
+              onClick={() => setSelectedMenu(ele.label)}
               className={`rounded-2xl transition-all duration-500 translate-y-0 hover:bg-secondary hover:-translate-y-1 hover:text-black hover:rounded-3xl hover:shadow-lg px-4 py-3 ${
                 selectedMenu === ele.label
                   ? "bg-black text-white rounded-3xl"
@@ -33,15 +35,10 @@ function NavBarSection() {
               }`}
               key={idx}
             >
-              <Link
-                href={`#${ele.route}`}
-                onClick={() => setSelectedMenu(ele.label)}
-              >
-                {ele.label}
-              </Link>
-            </li>
+              {ele.label}
+            </Link>
           ))}
-        </ul>
+        </div>
       </nav>
       <nav className="fixed top-3 left-1/2 transform -translate-x-1/2 rounded-full w-[90%] h-16 bg-white shadow-xl lg:hidden flex justify-between items-center font-bold p-5 z-10">
         <h1 className="text-xl">Karn&apos;s Portfolio</h1>

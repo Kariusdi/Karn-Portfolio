@@ -10,7 +10,7 @@ const AppAccomplishments: FC = () => {
   return (
     <section
       id="accomplishments"
-      className="flex flex-col flex-wrap justify-center items-center space-y-0 min-h-screen pt-36"
+      className="flex flex-col flex-wrap justify-center items-center space-y-0 min-h-screen pt-36 z-10"
     >
       <h1 className="mb-10 xs:text-4xl md:text-5xl font-bold mt-2 text-center">
         Accomplishments

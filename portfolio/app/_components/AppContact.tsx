@@ -20,7 +20,7 @@ const AppContact = () => {
   return (
     <footer
       id="contact"
-      className="flex flex-col justify-center items-center h-fit w-full bg-black text-white text-end p-10"
+      className="flex flex-col justify-center items-center h-fit w-full bg-black text-white text-end p-10 z-10"
     >
       <h1 className="text-2xl font-bold text-center">Chonakan Chumtap</h1>
       <ul className="xs:w-full md:w-1/2 h-fit mt-10">

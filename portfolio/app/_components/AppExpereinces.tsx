@@ -6,19 +6,26 @@ import Fulfill3 from "@/assets/Fulfills/3.png";
 import Japan1 from "@/assets/Japan/1.8.jpg";
 import Japan2 from "@/assets/Japan/1.2.jpg";
 import Japan3 from "@/assets/Japan/1.6.jpg";
-import Bondro1 from "@/assets/Bondro/1.jpg";
-import Bondro2 from "@/assets/Bondro/2.png";
-import Bondro3 from "@/assets/Bondro/3.jpg";
-import Bondro4 from "@/assets/Bondro/4.jpg";
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
+import BG from "@/assets/dot-bg.png";
 
 const AppExpereinces: FC = () => {
   return (
     <section
       id="experiences"
-      className="flex flex-col flex-wrap justify-center items-center space-x-0 min-h-screen xs:pt-24 w-full xs:px-0 md:px-5"
+      className="relative flex flex-col flex-wrap justify-center items-center space-x-0 min-h-screen xs:pt-24 w-full xs:px-0 md:px-5"
     >
+      <Image
+        src={BG}
+        alt={"bg"}
+        width={0}
+        height={0}
+        className="w-full h-auto absolute top-0 z-0 opacity-30 rotate-130"
+        objectFit="cover"
+        quality={100}
+        priority
+      />
       <h1 className="mb-10 xs:text-4xl md:text-5xl font-bold mt-2 text-center">
         My Relevant Experiences
       </h1>
@@ -33,7 +40,7 @@ const AppExpereinces: FC = () => {
           development concept. Mostly I was using Nextjs, Antd, MUI with
           TypeScript​ in this position.`}
           />
-          <Experiences
+          {/* <Experiences
             img={[Bondro4, Bondro1, Bondro3, Bondro2]}
             duration={"Sep 2024 - Oct 2024"}
             header={"Researcher with CDTI"}
@@ -48,7 +55,7 @@ const AppExpereinces: FC = () => {
               All of this, I implemented with Next.js and Firebase.`}
             link="https://drive.google.com/file/d/1kaaTk-OqbaGHpGTOdtn1fhq2eZTqz7vh/view?usp=sharing"
             likeDesc="Watch our DEMO"
-          />
+          /> */}
           <Experiences
             img={[Fulfill2, Fulfill1, Fulfill3]}
             duration={"Aug 2024"}
@@ -69,6 +76,16 @@ const AppExpereinces: FC = () => {
           />
         </div>
       </div>
+      <Image
+        src={BG}
+        alt={"bg"}
+        width={0}
+        height={0}
+        className="w-full h-auto absolute bottom-0 left-0 z-0 opacity-30 rotate-70"
+        objectFit="cover"
+        quality={100}
+        priority
+      />
     </section>
   );
 };
@@ -87,7 +104,7 @@ interface ExperiencesProps {
 
 const Experiences: FC<ExperiencesProps> = ({ ...ExperiencesProps }) => {
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col justify-center items-center z-10">
       <div className="w-full flex justify-center items-center md:space-x-5 xs:space-x-0 xs:space-y-5 md:space-y-0 flex-wrap">
         {ExperiencesProps.img.map((ele, idx) => (
           <div
