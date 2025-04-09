@@ -9,6 +9,7 @@ import Image from "next/image";
 const menus = [
   { icon: "", label: "About Me", route: "about" },
   { icon: "", label: "Skills", route: "skills" },
+  { icon: "", label: "Projects", route: "projects" },
   { icon: "", label: "Accomplishments", route: "accomplishments" },
   { icon: "", label: "Experiences", route: "experiences" },
   { icon: "", label: "Contact Me", route: "contact" },
@@ -20,7 +21,7 @@ function NavBarSection() {
 
   return (
     <>
-      <nav className="fixed top-3 left-1/2 transform -translate-x-1/2 rounded-full w-[80%] h-16 bg-white shadow-xl xs:hidden lg:flex justify-between items-center font-bold p-5 z-10">
+      <nav className="fixed top-3 left-1/2 transform -translate-x-1/2 rounded-full w-[80%] h-16 bg-white shadow-xl xs:hidden lg:flex justify-between items-center font-bold p-5 z-30">
         <h1 className="text-xl">Karn&apos;s Portfolio</h1>
         <ul className="flex space-x-5">
           {menus.map((ele, idx) => (

@@ -6,15 +6,15 @@ export const TechStackSkills = [
       "https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png",
   },
   {
+    name: "JavaScript",
+    level: "intermediate",
+    iconUrl: "https://www.svgrepo.com/show/303206/javascript-logo.svg",
+  },
+  {
     name: "TypeScript",
     level: "intermediate",
     iconUrl:
       "https://cdn.iconscout.com/icon/free/png-256/free-typescript-1174965.png?f=webp",
-  },
-  {
-    name: "JavaScript",
-    level: "intermediate",
-    iconUrl: "https://www.svgrepo.com/show/303206/javascript-logo.svg",
   },
   {
     name: "HTML",
@@ -27,6 +27,12 @@ export const TechStackSkills = [
     level: "intermediate",
     iconUrl:
       "https://static-00.iconduck.com/assets.00/file-type-css-icon-1806x2048-r5fwjl3p.png",
+  },
+  {
+    name: "Tailwind",
+    level: "intermediate",
+    iconUrl:
+      "https://static-00.iconduck.com/assets.00/tailwind-css-icon-2048x1229-u8dzt4uh.png",
   },
   {
     name: "React.js",
@@ -46,17 +52,23 @@ export const TechStackSkills = [
     iconUrl:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/2560px-Node.js_logo.svg.png",
   },
+
   {
-    name: "Tailwind CSS",
+    name: "MongoDB",
+    level: "intermediate",
+    iconUrl: "https://www.svgrepo.com/show/331488/mongodb.svg",
+  },
+  {
+    name: "Firebase",
     level: "intermediate",
     iconUrl:
-      "https://static-00.iconduck.com/assets.00/tailwind-css-icon-2048x1229-u8dzt4uh.png",
+      "https://cdn4.iconfinder.com/data/icons/google-i-o-2016/512/google_firebase-2-512.png",
   },
   {
     name: "PostgreSQL",
     level: "intermediate",
     iconUrl:
-      "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postgresql-icon.png",
+      "https://static-00.iconduck.com/assets.00/postgresql-icon-1987x2048-v2fkmdaw.png",
   },
   {
     name: "Docker",
@@ -64,18 +76,7 @@ export const TechStackSkills = [
     iconUrl:
       "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-512.png",
   },
-  {
-    name: "Arduino",
-    level: "intermediate",
-    iconUrl:
-      "https://static-00.iconduck.com/assets.00/arduino-icon-2048x1397-pmu0lemh.png",
-  },
-  {
-    name: "Figma",
-    level: "intermediate",
-    iconUrl:
-      "https://static-00.iconduck.com/assets.00/apps-figma-icon-2048x2048-ctjj5ab7.png",
-  },
+
   {
     name: "Git",
     level: "intermediate",
@@ -86,12 +87,6 @@ export const TechStackSkills = [
     level: "intermediate",
     iconUrl:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFzCIuPsPokbP-V0RFFgCRJqcve5gpjJmTtg&s",
-  },
-  {
-    name: "Auth0",
-    level: "intermediate",
-    iconUrl:
-      "https://static-00.iconduck.com/assets.00/auth0-icon-1832x2048-ewzjrdwk.png",
   },
   {
     name: "FastAPI",
@@ -110,6 +105,18 @@ export const TechStackSkills = [
     level: "intermediate",
     iconUrl:
       "https://artifacthub.io/image/aec2a822-2a3f-41a6-8a71-57c5d75d011e@3x",
+  },
+  {
+    name: "Figma",
+    level: "intermediate",
+    iconUrl:
+      "https://static-00.iconduck.com/assets.00/apps-figma-icon-2048x2048-ctjj5ab7.png",
+  },
+  {
+    name: "Arduino",
+    level: "intermediate",
+    iconUrl:
+      "https://static-00.iconduck.com/assets.00/arduino-icon-2048x1397-pmu0lemh.png",
   },
 ];
 

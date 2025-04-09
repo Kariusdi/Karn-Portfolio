@@ -10,7 +10,7 @@ const AppAccomplishments: FC = () => {
   return (
     <section
       id="accomplishments"
-      className="flex flex-col flex-wrap justify-center items-center space-y-0 min-h-screen xs:pt-24"
+      className="flex flex-col flex-wrap justify-center items-center space-y-0 min-h-screen pt-36"
     >
       <h1 className="mb-10 xs:text-4xl md:text-5xl font-bold mt-2 text-center">
         Accomplishments
@@ -32,7 +32,7 @@ const AppAccomplishments: FC = () => {
           style="right"
           img={Ai}
           award="1st Runner Up"
-          awardIcon="🥇"
+          awardIcon="🥈"
           header="International AI Hackathon Saving The World with AI"
           subheader="arranged by KMITL and The University of Queensland"
           desc={`" I was responsible for Frontend Development of an LLMs Application focused on household waste management assistance based on user behaviour, and served as a pitch presenter. "`}
@@ -52,7 +52,7 @@ const AppAccomplishments: FC = () => {
           style="right"
           img={Rubber}
           award="1st Runner Up"
-          awardIcon="🥇"
+          awardIcon="🥈"
           header="Smart Natural Rubber Hackathon"
           subheader="by Rubber Authority of Thailand"
           desc={`" I developed a dashboard and controller application with Flutter for smart natural rubber greenhouse monitoring, while contributing to IoT equipment installation. "`}

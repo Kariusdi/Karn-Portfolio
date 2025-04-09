@@ -14,7 +14,7 @@ const AppAbout: FC = () => {
   return (
     <section
       id="about"
-      className="flex flex-wrap justify-evenly items-center space-x-3 min-h-screen xs:pt-24"
+      className="flex flex-wrap-reverse justify-evenly items-center space-x-3 min-h-screen xs:pt-24"
     >
       <Image
         src={Pic}
