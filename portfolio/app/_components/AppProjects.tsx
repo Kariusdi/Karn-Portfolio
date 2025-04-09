@@ -273,6 +273,7 @@ const DetailsContainer = ({
                 quality={100}
                 className="rounded-2xl w-full h-full"
                 objectFit="cover"
+                placeholder="blur"
               />
             </div>
           ))}
@@ -289,6 +290,7 @@ const DetailsContainer = ({
                 quality={100}
                 className="rounded-2xl w-full h-full"
                 objectFit="cover"
+                placeholder="blur"
               />
             </div>
           ))}
