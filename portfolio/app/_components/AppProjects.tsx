@@ -44,7 +44,7 @@ const AppProjects = () => {
     <>
       <section
         id="projects"
-        className="flex flex-col flex-wrap justify-center items-center min-h-screen w-full xs:pt-24 relative"
+        className="flex flex-col flex-wrap justify-center items-center min-h-screen w-full xs:pt-36 relative"
       >
         <Image
           src={BG}
