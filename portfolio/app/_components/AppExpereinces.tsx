@@ -16,7 +16,7 @@ const AppExpereinces: FC = () => {
       id="experiences"
       className="relative flex flex-col flex-wrap justify-center items-center space-x-0 min-h-screen xs:pt-24 w-full xs:px-0 md:px-5"
     >
-      <div className="absolute right-0 top-0 z-0">
+      {/* <div className="absolute right-0 top-0 z-0">
         <Image
           src={BG}
           alt={"bg"}
@@ -27,7 +27,7 @@ const AppExpereinces: FC = () => {
           quality={100}
           priority
         />
-      </div>
+      </div> */}
       <h1 className="mb-10 xs:text-4xl md:text-5xl font-bold mt-2 text-center">
         My Relevant Experiences
       </h1>
@@ -101,7 +101,7 @@ const Experiences: FC<ExperiencesProps> = ({ ...ExperiencesProps }) => {
         {ExperiencesProps.img.map((ele, idx) => (
           <div
             key={idx}
-            className="w-[380px] h-[250px] rounded-xl shadow-lg transition-all duration-300 translate-y-0 hover:-translate-y-2 hover:shadow-2xl"
+            className="w-[380px] h-[250px] rounded-xl shadow-lg transition-all duration-300"
           >
             <Image
               src={ele}
